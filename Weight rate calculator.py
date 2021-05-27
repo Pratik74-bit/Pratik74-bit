@@ -1,5 +1,5 @@
-#sum calculator by pratik using Tkinter library in python
-
+#calculators by pratik using Tkinter library in python
+#creating weight rate calculator to calculate RATE and WEIGHT
 
 
 from tkinter import *
@@ -7,8 +7,8 @@ from tkinter import *
 
 
 root = Tk()
-root.title("Pratik Calculators- Weight Rate Calculator")
-
+root.title("Pratik Calculators- Weight Rate Calculator")   #window
+ 
 root.geometry('310x290')
 root['bg'] = 'black'
 
@@ -52,7 +52,7 @@ space_label.grid(row=7,column=0,columnspan=2)
 
 
 
-def go1():
+def go1():   #button 1
     
     
 
@@ -68,7 +68,7 @@ def go1():
     result = Label(root,text= Weight, bg='black',fg='yellow',font='bold')
     result.grid(row=9,column=1)
       
-def go2():
+def go2():     #button 2
     
     
 
